@@ -6,10 +6,41 @@ AWS Lambda lets you run code without provisioning or managing servers. You pay o
 [AWS Lambda Deployment](https://docs.aws.amazon.com/lambda/latest/dg/create-deployment-pkg-zip-java.html)
 [AWS Java SDK](https://aws.amazon.com/sdk-for-java/)
 
+# Starter Package Structure
+```bash
+.
+├── README.md
+├── build.gradle
+├── event
+├── settings.gradle
+└── src
+    ├── main
+    │   ├── java
+    │   │   └── com.mydomain
+    │   │       ├── LambdaHandler.java
+    │   │       └── model
+    │   │           ├── ServerlessRequest.java
+    │   │           └── ServerlessResponse.java
+    │   └── resources
+    │       └── application.properties
+    └── test
+        ├── java
+        ├── mock
+        │   └── event
+        │       └── api-gateway-event.json
+        └── resources
+
+```
+LambdaHandler.java: is contains the AWS Lambda Handler Function.
+ServerlessRequest.java: AWS Lambda Request Object
+ServerlessResponse.java: AWS Lambda Response Object
+
 # Building Your first AWS Lambda Deployment Package
 
 Use Gradle build / deployment management tool, in order to build your package:
 ```bash
+# Checkout this code
+git clone 
 
 # Building Lambda Zip file
 gradle build
@@ -29,3 +60,6 @@ Step 1: [Set Up an AWS Account and the AWS CLI](https://docs.aws.amazon.com/lamb
 Step 2: [Create a HelloWorld Lambda Function and Explore the Console](https://docs.aws.amazon.com/lambda/latest/dg/getting-started-create-function.html)
 Step 3: [Create a Simple Microservice using Lambda and API Gateway](https://docs.aws.amazon.com/lambda/latest/dg/with-on-demand-https-example-configure-event-source_1.html)
 
+# AWS Managed Services Integrated IDE (Eclipse)
+This section desribes how to install or upgrade the AWS Toolkit for Eclipse.
+[Readmore](https://docs.aws.amazon.com/toolkit-for-eclipse/v1/user-guide/setup-install.html)
