@@ -34,13 +34,14 @@ AWS Lambda lets you run code without provisioning or managing servers. You pay o
 LambdaHandler.java: is contains the AWS Lambda Handler Function.
 ServerlessRequest.java: AWS Lambda Request Object
 ServerlessResponse.java: AWS Lambda Response Object
+api-gateway-event.json: A sample Lambda Event from Amazon API Gateway 
 
 # Building Your first AWS Lambda Deployment Package
 
 Use Gradle build / deployment management tool, in order to build your package:
 ```bash
 # Checkout this code
-git clone 
+git clone https://github.com/rezamt/aws-lambda-java-starter.git
 
 # Building Lambda Zip file
 gradle build
@@ -63,3 +64,8 @@ Step 3: [Create a Simple Microservice using Lambda and API Gateway](https://docs
 # AWS Managed Services Integrated IDE (Eclipse)
 This section desribes how to install or upgrade the AWS Toolkit for Eclipse.
 [Readmore](https://docs.aws.amazon.com/toolkit-for-eclipse/v1/user-guide/setup-install.html)
+
+Note: If you are IntelliJ Expert, you just need to checkout project in you IntelliJ Smart IDEA.
+
+# Additional Notes
+This function is designed to handle AWS API Gateway Events, you can change the Lamabda handler implementation for S3 Events, etc.
