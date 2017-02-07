@@ -1,0 +1,36 @@
+{
+    "resource": "/pets/{petId}",
+    "path": "/pets/12345",
+    "httpMethod": "GET",
+    "headers": null,
+    "queryStringParameters": null,
+    "pathParameters": {
+    "petId": "12345"
+},
+    "stageVariables": null,
+    "requestContext": {
+    "accountId": "AIDAIKKHRGLNC2VTJDDJQ",
+        "resourceId": "x14ma5",
+        "stage": "test-invoke-stage",
+        "requestId": "0.0.0.0",
+        "identity": {
+        "cognitoIdentityPoolId": null,
+            "accountId": "AIDAIKKHRGLNC2VTJDDJQ",
+            "cognitoIdentityId": null,
+            "caller": "AIDAIKKHRGLNC2VTJDDJQ",
+            "apiKey": "test-invoke-api-key",
+            "sourceIp": "test-invoke-source-ip",
+            "accessKey": "ASIAJREJ7ZFFKQOYWVIQ",
+            "cognitoAuthenticationType": null,
+            "cognitoAuthenticationProvider": null,
+            "userArn": "arn:aws:iam::AIDAIKKHRGLNC2VTJDDJQ:user/rezakhan",
+            "userAgent": "Apache-HttpClient/4.5.x (Java/1.8.0_102)",
+            "user": "AIDAIKKHRGLNC2VTJDDJQ"
+    },
+    "resourcePath": "/pets/{petId}",
+        "httpMethod": "GET",
+        "apiId": "c1ootlozz4"
+},
+    "body": null,
+    "isBase64Encoded": false
+}

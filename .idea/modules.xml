@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aws-lambda-java-starter.iml" filepath="$PROJECT_DIR$/.idea/modules/aws-lambda-java-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aws-lambda-java-starter_main.iml" filepath="$PROJECT_DIR$/.idea/modules/aws-lambda-java-starter_main.iml" group="aws-lambda-java-starter" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aws-lambda-java-starter_test.iml" filepath="$PROJECT_DIR$/.idea/modules/aws-lambda-java-starter_test.iml" group="aws-lambda-java-starter" />
+    </modules>
+  </component>
+</project>
